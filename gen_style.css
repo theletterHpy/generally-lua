@@ -1,0 +1,61 @@
+body {
+  background-color: #3d4242;
+  font-size: 100px;
+  color: white;
+  border: 10px solid #00cfc4;
+  border-radius: 8px;
+}
+.limits {
+  background-color: #3d4242;
+  font-size: 12px;
+  color: white;
+}
+p {
+  background-color: #3d4242;
+  font-size: 32px;
+  color: white;
+  border: 10px solid #00cfc4;
+  border-radius: 8px;
+}
+.button {
+  background-color: #1f2121;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  border: 2px solid #00cfc4;
+  display: block;
+  width: 512px;
+}
+.button:hover {
+  background-color: #5f635f;
+  color: white;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
