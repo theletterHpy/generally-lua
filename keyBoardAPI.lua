@@ -1,7 +1,10 @@
 
 local app = APP.begin("keyboard", "keyboard")
 keys = {"a"}
-
+app.pages.main = {
+    {type = "rectangle", size = vec(96, 8)},
+    {type = "text", text = app.display_name}
+}
 local f4 = keybinds:newKeybind("f4 key", "key.keyboard.f4")
 function app.events.post_key_press()
     if app.current_page ~= "key" then
