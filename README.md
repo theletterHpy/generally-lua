@@ -3,14 +3,5 @@ lua modules
 ## e
 [some random lines](https://foko.w3spaces.com/)
 
-<link rel="stylesheet" type="text/css" href="styles/gen_style.css" /> 
-<html>
-  
-
-  <body>
-  <img src="img/hobbit2b.png">
-		  <div>h: h, h...h...H</div>
-</body>
-</html>
-
-
+<img src="img/hobbit2b.png"></img>
+`H: h h H ... H!`
