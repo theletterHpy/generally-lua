@@ -8,8 +8,6 @@ lua modules
   <body>
     <img src="img/hobbit2b.png"></img>
     
-	
-    <center> <p id="Generation"></p>
   </body>
 </html>
 
